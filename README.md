@@ -1,8 +1,8 @@
 # hubs-directory
 A directory of Mozilla Hubs instances
 
-## How to add a directory
-Creating a public directory of Mozilla Hubs rooms on GitHub involves a few straightforward steps. This guide is designed for a non-technical audience to easily follow along.
+## How to add a room
+Adding a room to the a public directory of Hubs rooms on GitHub involves a few straightforward steps. This guide is designed for a non-technical audience to easily follow along.
 
 ### **Step 1: Understanding GitHub**
 
@@ -14,7 +14,7 @@ GitHub is a web-based platform used for version control and collaboration. It al
 
 ### **Step 3: Finding the Repository**
 
-- Navigate to the repository containing the Mozilla Hubs room directory.
+- Navigate to the [repository | https://github.com/nurse-the-code/hubs-directory/] containing the Hubs room directory.
 
 ### **Step 4: Opening an Issue (Optional)**
 
