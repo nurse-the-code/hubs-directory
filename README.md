@@ -1,5 +1,18 @@
 # hubs-directory
-A directory of Mozilla Hubs instances
+A public directory of Mozilla Hubs instances
+
+## Table of Contents
+- [Directory](#directory)
+- [How to add a room](#how-to-add-a-room)
+
+
+## Directory
+
+| Title                  | Screenshot | Description |
+|------------------------|------------|-------------|
+| [Community Meetup](https://hubs.mozilla.com/NXdJLZB/community-meetup/)) | ![Alt text](/thumbnails/community-meetup-thumbnail.jpg) | Mozilla Hub's official weekly community meetup. Meets most Fridays at 1400 EST. Check out the Mozilla Hubs official Discord server for additional info. |
+| [Your Room Title Here](https://example.com) | ![Alt text](/thumbnails/your-image-thumbnail.jpg) | Your Description Here | <!-- Leave this line in place; place new rooms above this line -->
+
 
 ## How to add a room
 Adding a room to the a public directory of Hubs rooms on GitHub involves a few straightforward steps. This guide is designed for a non-technical audience to easily follow along.
@@ -32,49 +45,43 @@ Discuss new additions freely before making changes:
     |------------------------|------------|-------------|
     | [Your Room Title Here](https://example.com) | ![Alt text](/thumbnails/yourimage.jpg) | Your Description Here |
     ```
-4. Add the screenshot thumbnail (see below for instructions)
+4. Add the screenshot thumbnail ([see below](#adding-a-thumbnail-screenshot) for instructions).
 5. Propose the change with a meaningful commit message.
 6. Click "Create Pull Request".
 
-### **Step 6: PR Review and Approval**
-
-Wait for the project maintainers to review and merge your PR.
-
-### **Adding a Thumbnail Screenshot**
+#### **Adding a Thumbnail Screenshot**
 
 When you contribute a room to the directory, including a thumbnail screenshot makes it visually appealing and provides a quick preview of the room. Here are the guidelines for adding screenshots:
 
-#### **Naming Convention**
+##### **Naming Convention**
 
 - Name your screenshot file using the following format: `[RoomName]-thumbnail.[ext]`, where `[RoomName]` is a concise version of your room title and `[ext]` is the file extension based on the image format (e.g., 'community-meetup-thumbnail.png').
 - Use dashes (-) instead of spaces, and keep the name lowercase to ensure consistency and compatibility.
 
-#### **Image Specifications**
+##### **Image Specifications**
 
 - **Preferred Dimensions**: Aim for an image size of `1280x720 pixels` (720p). This dimension works well across devices, offering a balance between clarity and file size.
 - **Supported Formats**: GitHub supports a range of image formats. For thumbnails, you should use either `JPEG` (.jpg/.jpeg) for photos or complex images, or `PNG` (.png) for images with transparency or simpler graphics.
-- **Maximum File Size**: Keep the image file size under `1MB` to ensure quick loading times and to be considerate of those with bandwidth limitations.
+- **Maximum File Size**: Keep the image file size under `4MB` to ensure quick loading times and to be considerate of those with bandwidth limitations.
 
-#### **Uploading Screenshots**
+##### **Uploading Screenshots**
 
 1. Upload the image to the `thumbnails` folder within the repository. You can do this by navigating to the folder, clicking "Add file" > "Upload files", and then selecting your pre-named image file.
 2. Reference the image in the README.md by including it in your room's entry using markdown image syntax: `![Alt text](/thumbnails/[YourImageFileName].[ext])`, replacing `[YourImageFileName].[ext]` with the name of your uploaded file.
 
-### **Privacy Implications**
 
-Ensure you are comfortable sharing the room's details publicly. All submitted information will be accessible on GitHub.
+### **Step 6: PR Review and Approval**
 
-Contributing to open-source projects like this directory not only benefits the wider community but can also be enriching for the contributors.
+Wait for the directory maintainers to review your PR. They may merge it, request changes, or reject it if it doesn't fit the project's needs. Remember, each review is a step towards making a valuable contribution. After your PR is merged, it will become part of the project. If rejected, don't be discouraged; review the feedback, and feel free to ask for clarification or submit new contributions in the future.
+
+
+### Privacy Implications
+
+When adding a room to this directory, it's important to know that the details you share become part of the public record on GitHub. This includes the room's name, description, and URL, along with any other information you provide in your pull request.
+
+Additionally, your git commit includes your name and email address as configured in your local git environment. This could be different from your GitHub profile information. This means that when you make a contribution, your identity and contact information as per your git settings could also be visible alongside the content of your contribution.
+
+Please review the information you're about to share, ensuring it doesn't include anything private or sensitive that you're not comfortable making public. Remember, once submitted, this information can be viewed by anyone and remains accessible even if you later modify or delete it.
+
 
 By following these guidelines, you help maintain a consistent and professional appearance for the Mozilla Hubs rooms directory.
-
-
-
-
-## Directory
-
-| Title                  | Screenshot | Description |
-|------------------------|------------|-------------|
-| [Community Meetup]([https://example.com](https://hubs.mozilla.com/NXdJLZB/community-meetup/)) | ![Alt text](/thumbnails/community-meetup.jpg) | Mozilla Hub's official weekly community meetup. Meets most Fridays at 1400 EST. Check out the [Mozilla Hubs official Discord server  | https://discord.com/invite/hubs-498741086295031808] for additional info. |
-| [Your Room Title Here](https://example.com) | ![Alt text](/thumbnails/yourimage.jpg) | Your Description Here | <!-- Leave this line in place; place new rooms above this line -->
-
