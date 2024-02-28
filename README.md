@@ -1,5 +1,5 @@
 # hubs-directory
-A public directory of Mozilla Hubs instances
+A public directory of Mozilla Hubs rooms.
 
 ## Table of Contents
 - [Directory](#directory)
